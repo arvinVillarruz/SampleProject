@@ -13,5 +13,6 @@ public class Hello {
   @RequestMapping("/")
   public String welcome(@RequestParam(value="name", defaultValue="World") String name) {
     return "Welcome " + name;
+	
   }
 }
