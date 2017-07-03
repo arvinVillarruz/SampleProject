@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
   @RequestMapping("/")
   public String welcome(@RequestParam(value="name", defaultValue="World") String name) {
-    return "Welcome " + name;
+    return "Welcome 3" + name;
 	
   }
 }
