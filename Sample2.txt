@@ -1,4 +1,1 @@
-branch1
-master
-
-sample
+sample1
